@@ -33,7 +33,7 @@ body {
 }
 
 main {
-  max-width: 326px;
+  max-width: 20.375rem;
   background: #FFF;
   border-radius: 0.9375rem; 
   position: relative;
@@ -60,7 +60,7 @@ main {
 
 
 .content-container img {
-  max-width: 101px;
+  max-width: 6.3125rem;
   border-radius: 50%;
   border: 5px solid #FFF;
   position: absolute;
@@ -95,7 +95,7 @@ hr {
 .content-container ul {
   display: flex;
   width: 100%;
-  padding: 0 53px 24px 40px;
+  padding: 0 3.3125rem 1.5rem 2.5rem;
 }
 
 .content-container li {
@@ -109,11 +109,11 @@ hr {
 }
 
 .content-container li:nth-child(1) {
-  margin-right: 38px;
+  margin-right: 2.375rem;
 }
 
 .content-container li:nth-child(2) {
-  margin-right: 46px;
+  margin-right: 2.875rem;
 }
 
 .content-container li > span {
@@ -134,15 +134,15 @@ hr {
   }
   
   .content-container ul {
-    padding: 0 54px 24px 47px;
+    padding: 0 3.375rem 1.5rem 2.9375rem;
   }
 
   .content-container li:nth-child(1) {
-    margin-right: 46px;
+    margin-right: 2.875rem;
   }
   
   .content-container li:nth-child(2) {
-    margin-right: 54px;
+    margin-right: 3.375rem;
   }
 
 }
