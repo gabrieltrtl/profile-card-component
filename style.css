@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  width: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  background: #19A1AE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 40vw bottom 40vh, left 30vw top 50vh;
+}
+
+main {
+  max-width: 326px;
+  background: #FFF;
+  border-radius: 0.9375rem; 
+  position: relative;
+  color: #6B7082;
+}
+
+
+.img-container img {
+  border-top-left-radius: 0.9375rem;
+  border-top-right-radius: 0.9375rem;
+  height: 8.75rem;
+}
+
+.img-container {
+  margin-bottom: 4.5rem;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.content-container img {
+  max-width: 6rem;
+  border-radius: 50%;
+  border: 5px solid #FFF;
+  position: absolute;
+  top: 92px;
+}
+
+
+.content-container h1 {
+  font-size: 1.125rem;
+  color: #2E3349;
+  margin-bottom: 0.5625rem;
+}
+
+.name span {
+  font-weight: 400;
+  margin-left: 0.5625rem;
+  color: #6B7082;
+}
+
+.content-container p {
+  margin-bottom: 1.5625rem;
+  font-size: 0.875rem;
+}
+
+hr {
+  border: 1px solid #E8E9EC;
+  opacity: 0.75;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.content-container ul {
+  display: flex;
+  gap: 38px;
+  margin-bottom: 1.5rem;
+}
+
+.content-container li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  color: #2E3349;
+  font-weight: 700;
+  gap: 5px;
+}
+
+.content-container li > span {
+  font-size: 0.625rem;
+  letter-spacing: 1.5px;
+  color: #6B7082;
+  font-weight: 400;
+}
+
+@media (min-width: 700px) {
+
+  body {
+    background-position: right 50vw bottom 40vh, left 49vw top 49vh;
+  }
+
+  main {
+    max-width: 21.875rem;
+  }
+
+}
+
+
