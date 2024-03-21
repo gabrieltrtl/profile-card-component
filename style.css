@@ -60,7 +60,7 @@ main {
 
 
 .content-container img {
-  max-width: 6rem;
+  max-width: 101px;
   border-radius: 50%;
   border: 5px solid #FFF;
   position: absolute;
