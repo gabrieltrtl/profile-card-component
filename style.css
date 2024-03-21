@@ -38,6 +38,7 @@ main {
   border-radius: 0.9375rem; 
   position: relative;
   color: #6B7082;
+  box-shadow: 0 50px 100px -20px rgba(8, 70, 94, .5);
 }
 
 
@@ -93,8 +94,8 @@ hr {
 
 .content-container ul {
   display: flex;
-  gap: 38px;
-  margin-bottom: 1.5rem;
+  width: 100%;
+  padding: 0 53px 24px 40px;
 }
 
 .content-container li {
@@ -105,6 +106,14 @@ hr {
   color: #2E3349;
   font-weight: 700;
   gap: 5px;
+}
+
+.content-container li:nth-child(1) {
+  margin-right: 38px;
+}
+
+.content-container li:nth-child(2) {
+  margin-right: 46px;
 }
 
 .content-container li > span {
@@ -122,6 +131,18 @@ hr {
 
   main {
     max-width: 21.875rem;
+  }
+  
+  .content-container ul {
+    padding: 0 54px 24px 47px;
+  }
+
+  .content-container li:nth-child(1) {
+    margin-right: 46px;
+  }
+  
+  .content-container li:nth-child(2) {
+    margin-right: 54px;
   }
 
 }
